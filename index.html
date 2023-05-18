@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 3</title>    
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <main class="container">
+        <div class="informacao">
+                <h1 class="titulo">FICOU COM DÚVIDA? <br> NOS  MANDE UMA MENSAGEM</h1>
+
+                <p class="texto">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </div>
+
+        <form class="formulario">
+            <input class="campo nome" type="text" id="name" placeholder="Nome completo *">
+            <span class="obrigatorio">campo obrigatório</span>
+
+            <input class="campo email" type="email" id="email" placeholder="Email *">
+            <span class="obrigatorio">campo obrigatório</span>
+
+            <input class="campo tel" type="tel" id="telefone" placeholder="Telefone *">
+            <span class="obrigatorio">campo obrigatório</span>
+
+            <textarea class="campo mensagem" name="mensagem" id="textoForm" cols="20" rows="30" placeholder="Mensagem *"></textarea>
+            <span class="obrigatorio">campo obrigatório</span>
+
+            <p>*campos obrigatórios</p>
+                
+            <button type="submit" class="botao">Enviar</button>
+            
+        </form>
+
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>

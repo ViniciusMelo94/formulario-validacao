@@ -1,0 +1,99 @@
+body {
+    background-repeat: repeat-x;
+    background-size: 62px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../imagem/bg-repeat.jpg);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container .informacao {
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;    
+    color: #FFF;
+
+}
+
+.container .informacao .titulo {
+    margin-left: 40px;
+    width: 600px;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.informacao .texto {
+    margin-left: 40px;
+    width: 500px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.formulario {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 450px;
+}
+
+.campo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 20px 20px 0px 20px;
+    padding: 9px 8px;
+    height: 35px;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+}
+
+.campo.mensagem {
+    height: 200px;
+}
+
+.formulario p {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin: 8px 20px 20px 20px;
+}
+.botao {
+    width: 298.01px;
+    height: 41.13px;
+    border-radius: 5px;
+    background-color: #3CCC87;
+    border: none;
+    color: #FFF;
+    margin: 0px 20px 20px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 12px;
+    
+}
+
+.formulario .obrigatorio {
+    color: #F52E2E;
+    margin: 0px 20px;
+    display: none;
+}
+
+.campoVazio {
+    border: 1px solid #F52E2E;
+}
+
+.campoConfirm {
+    border: 1px  solid #3CCC87;
+}
